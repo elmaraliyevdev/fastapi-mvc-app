@@ -1,0 +1,47 @@
+# Byte-compiled / package files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+.env
+*.env
+
+# Logs
+*.log
+
+# Database
+*.sqlite3
+alembic/versions/*.pyc
+
+# Python dependencies
+dist/
+build/
+*.egg-info/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test files
+.coverage
+.tox/
+pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Docker
+.dockerignore
+
+# FastAPI
+alembic.ini
+instance/
+migrations/
